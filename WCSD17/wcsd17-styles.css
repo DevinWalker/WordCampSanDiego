@@ -1,8 +1,18 @@
 .wcorg-organizer {
     margin: 0 0 30px;
 }
+
 .wcorg-organizer-description .avatar {
-    float:left;
+    float: left;
     margin: 0 30px 20px 0;
     border-radius: 50%;
+}
+
+/* Blog */
+body.blog .page-header {
+    display: none;
+}
+
+body.blog #main > article {
+    width: 100%;
 }
