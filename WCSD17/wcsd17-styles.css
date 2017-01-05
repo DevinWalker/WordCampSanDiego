@@ -16,3 +16,31 @@ body.blog .page-header {
 body.blog #main > article {
     width: 100% !important;
 }
+
+/* Logo override for https */
+
+.home .wp-custom-header:after {
+    background: url('https://2017.sandiego.wordcamp.org/files/2016/12/wcsd17-logo-square-white.png') no-repeat 0 0 transparent !important;
+}
+
+body.page:not(.twentyseventeen-front-page) .site-title a {
+    background: url('https://2017.sandiego.wordcamp.org/files/2016/12/wcsd17-logo-transparent-vertical.png') no-repeat center center transparent !important;
+}
+
+body.page:not(.twentyseventeen-front-page) .wp-custom-header {
+    background: url('https://2017.sandiego.wordcamp.org/files/2016/12/interior-header.jpg') !important;
+}
+
+@media screen and (max-height: 800px) and (max-width: 700px) {
+    .home .wp-custom-header:after {
+        background-image: url('https://2017.sandiego.wordcamp.org/files/2016/12/hipster-logo-600.png') !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    body.page:not(.twentyseventeen-front-page) .site-title a {
+        background-image: url('https://2017.sandiego.wordcamp.org/files/2016/12/wcsd17-logo-horizontal-600.png') !important;
+
+    }
+}
