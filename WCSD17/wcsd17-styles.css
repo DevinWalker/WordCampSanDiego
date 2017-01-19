@@ -47,16 +47,16 @@ body.page:not(.twentyseventeen-front-page) .wp-custom-header {
     .home .wp-custom-header:after {
         background-image: url('http://2017.sandiego.wordcamp.org/files/2016/12/hipster-logo-600.png') !important;;
         background-size: 300px !important;
-        height: 300px !important;;
-        margin: -220px 0 0 -150px !important;;
-        width: 300px !important;;
+        height: 300px !important;
+        margin: -220px 0 0 -150px !important;
+        width: 300px !important;
     }
 
     .home .site-branding .site-description {
-        font-size: 32px !important;;
+        font-size: 32px;
     }
 
     .page .panel-content .entry-title, #main .entry-title {
-        font-size: 44px !important;;
+        font-size: 44px;
     }
 }
