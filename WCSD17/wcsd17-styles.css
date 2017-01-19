@@ -43,12 +43,12 @@ body.page:not(.twentyseventeen-front-page) .wp-custom-header {
     }
 }
 
-@media screen and (max-height: 800px) and (max-width: 700px) {
+@media screen and (max-height: 800px) and (max-width: 700px) and (min-width: 481px) {
     .home .wp-custom-header:after {
         background-image: url('http://2017.sandiego.wordcamp.org/files/2016/12/hipster-logo-600.png') !important;
         background-size: 300px !important;
         height: 300px;
-        margin: -220px 0 0 -150px;
+        margin: -220px 0 0 -150px !important;
         width: 300px;
     }
 
