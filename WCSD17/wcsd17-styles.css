@@ -24,6 +24,12 @@
     display:none;
 }
 
+
+.page-slug-sponsors .wcorg-sponsors img {
+    margin: 0 auto;
+    display: block;
+    max-height: 100%;
+}
 /* Blog */
 body.blog .page-header {
     display: none;
