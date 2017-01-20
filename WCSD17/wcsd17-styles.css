@@ -10,7 +10,7 @@
 
 /* Sponsors Page */
 
-.page-slug-sponsors .wcorg-sponsor-level-bronze > h2 {
+.page-slug-sponsors div[class^="wcorg-sponsor-level-"]  > h2 {
     text-transform: uppercase;
     text-align: center;
     margin: 120px 0 50px;
@@ -26,8 +26,9 @@
 
 
 .page-slug-sponsors .wcorg-sponsors img {
-    margin: 0 auto 30px;
+    margin: 80px auto 30px;
     display: block;
+    width: auto;
     max-height: 100%;
 }
 
