@@ -8,6 +8,22 @@
     border-radius: 50%;
 }
 
+/* Sponsors Page */
+
+.page-slug-sponsors .wcorg-sponsor-level-bronze > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 120px 0 50px;
+    font-size: 40px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 10px 0;
+}
+
+.page-slug-sponsors .wcorg-sponsor h3 {
+    display:none;
+}
+
 /* Blog */
 body.blog .page-header {
     display: none;
