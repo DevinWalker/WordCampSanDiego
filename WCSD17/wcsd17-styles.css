@@ -20,16 +20,18 @@
     padding: 10px 0;
 }
 
-.page-slug-sponsors .wcorg-sponsor h3 {
+.page-slug-sponsors div[class^="wcorg-sponsor"] h3 {
     display:none;
 }
 
 
 .page-slug-sponsors .wcorg-sponsors img {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: block;
     max-height: 100%;
 }
+
+
 /* Blog */
 body.blog .page-header {
     display: none;
