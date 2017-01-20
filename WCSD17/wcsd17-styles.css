@@ -8,6 +8,10 @@
     border-radius: 50%;
 }
 
+/* Sponsors Homepage */
+
+
+
 /* Sponsors Page */
 
 .page-slug-sponsors div[class^="wcorg-sponsor-level-"] > h2 {
@@ -20,7 +24,7 @@
     padding: 10px 0;
 }
 
-.page-slug-sponsors div[class^="wcorg-sponsor"] h3 {
+div[class^="wcorg-sponsor"] h3 {
     display:none;
 }
 
