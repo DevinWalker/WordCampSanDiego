@@ -14,7 +14,7 @@
 
 /* Sponsors Page */
 
-.page-slug-sponsors div[class^="wcorg-sponsor-level-"] > h2 {
+div[class^="wcorg-sponsor-level-"] > h2 {
     text-transform: uppercase;
     text-align: center;
     margin: 120px 0 50px;
