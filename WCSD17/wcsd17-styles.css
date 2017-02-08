@@ -50,6 +50,7 @@ body.blog #main > article {
 /* Attendees */
 
 #tix-attendees .avatar {
+    float:none;
     width:96px;
     height:96px;
     border-radius: 50%;
@@ -63,6 +64,11 @@ body.blog #main > article {
 
 #tix-attendees .tix-attendee-name {
     margin-left:0;
+}
+
+#tix-attendees .tix-field {
+    margin-left:0;
+    box-shadow:none;
 }
 
 /* Logo override for https */
