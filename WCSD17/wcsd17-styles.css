@@ -46,6 +46,25 @@ body.blog #main > article {
     width: 100% !important;
 }
 
+
+/* Attendees */
+
+#tix-attendees .avatar {
+    width:96px;
+    height:96px;
+    border-radius: 50%;
+}
+
+#tix-attendees .tix-columns-2 li {
+    height: 170px;
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+#tix-attendees .tix-attendee-name {
+    margin-left:0;
+}
+
 /* Logo override for https */
 
 .home .wp-custom-header:after {
