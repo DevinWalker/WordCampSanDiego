@@ -56,7 +56,7 @@ body.blog #main > article {
     border-radius: 50%;
 }
 
-#tix-attendees .tix-columns-2 li {
+#tix-attendees .tix-columns-3 li {
     height: 170px;
     margin: 0 0 25px;
     text-align: center;
