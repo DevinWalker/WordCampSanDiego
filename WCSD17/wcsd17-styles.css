@@ -30,6 +30,16 @@
 }
 
 
+.speaker-avatar {
+    float:left;
+    margin:0 25px 10px 0;
+    padding:0;
+}
+
+.speaker-avatar > img {
+    border-radius:50%;
+}
+
 /* Sponsors Page */
 
 div[class^="wcorg-sponsor-level-"] > h2 {
