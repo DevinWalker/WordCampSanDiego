@@ -86,6 +86,9 @@ body.blog h2.entry-title {
     border-top: none;
     border-bottom: 3px solid #CCC;
 }
+body.blog h2.entry-title a:hover{
+    box-shadow:none;
+}
 
 body.blog #main > article {
     width: 100% !important;
