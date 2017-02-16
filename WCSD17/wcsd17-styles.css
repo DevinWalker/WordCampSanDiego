@@ -8,7 +8,18 @@
     border-radius: 50%;
 }
 
-/* Sponsors Homepage */
+/* Single Posts */
+.single-post #main .entry-title {
+    font-size:35px;
+    border-bottom:3px solid #CCC;
+}
+
+@media screen and (max-height: 800px) {
+    .single-post  #main .entry-title {
+        font-size: 24px;
+    }
+}
+/* Speakers Page */
 
 
 
