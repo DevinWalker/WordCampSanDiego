@@ -81,16 +81,17 @@ body.blog .page-header {
     display: none;
 }
 
-body.blog #main h2.entry-title {
+body.blog #main h2.entry-title,
+body.archive #main h2.entry-title{
     font-size: 32px;
     border-top: none;
     border-bottom: 3px solid #CCC;
 }
-body.blog  #main h2.entry-title a:hover{
+body.blog  #main h2.entry-title a:hover, body.archive #main h2.entry-title a:hover{
     box-shadow:none;
 }
 
-body.blog #main > article {
+body.blog #main > article, body.archive #main > article {
     width: 100% !important;
     max-width: 760px;
     margin: 0 auto !important;
