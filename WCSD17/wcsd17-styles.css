@@ -11,6 +11,7 @@
 /* Single Posts */
 .single-post #main .entry-title {
     font-size:35px;
+    border-top:none;
     border-bottom:3px solid #CCC;
 }
 
