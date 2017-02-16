@@ -93,8 +93,8 @@ body.blog  #main h2.entry-title a:hover{
 body.blog #main > article {
     width: 100% !important;
     max-width: 760px;
-    margin: 0 auto;
-    float: none;
+    margin: 0 auto !important;
+    float: none !important;
 }
 
 
