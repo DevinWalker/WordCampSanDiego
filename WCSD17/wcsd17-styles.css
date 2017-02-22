@@ -166,3 +166,7 @@ body.page:not(.twentyseventeen-front-page) .wp-custom-header {
         font-size: 44px;
     }
 }
+
+.single-featured-image-header {
+    background-color:#FFF !important;
+}
